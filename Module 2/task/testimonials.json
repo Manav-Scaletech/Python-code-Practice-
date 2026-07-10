@@ -1,0 +1,166 @@
+{
+    "data": [
+        {
+            "id": 4,
+            "attributes": {
+                "author": "Max Gomez",
+                "message": "\"ScaleTech was instrumental in the conceptualizing and launching of Breathwrk. We might not be here today without them. They took time to fully understand my vision and advised me as I embarked on a journey to develop a software application that would be groundbreaking in the area of mindfulness and behavioral therapy. From a development perspective, they provide a true full-stack skill matrix with an agile, iterative development mindset. They always deliver quality, on time, within budget, with timely support.\"",
+                "authorDetails": "CEO Breathwrk / USA",
+                "authorMessage": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "text": "\"ScaleTech was instrumental in the conceptualizing and launching of Breathwrk. We might not be here today without them. They took time to fully understand my vision and advised me as I embarked on a journey to develop a software application that would be groundbreaking in the area of mindfulness and behavioral therapy. From a development perspective, they provide a true full-stack skill matrix with an agile, iterative development mindset. They always deliver quality, on time, within budget, with timely support.\"",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "createdAt": "2024-08-13T14:44:56.947Z",
+                "updatedAt": "2024-08-13T14:44:59.312Z",
+                "publishedAt": "2024-08-13T14:44:59.239Z"
+            }
+        },
+        {
+            "id": 1,
+            "attributes": {
+                "author": "Udo Finkbeiner",
+                "message": "ScaleTech are very much like an extension of our own team. It has helped us make huge strides on our solutions and to achieve a core system that we can depend on and base our business on moving forwards as part of our strategy.”",
+                "authorDetails": "CEO PosBill / Germany",
+                "authorMessage": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "text": "\"ScaleTech are very much like an extension of our own team. It has helped us make huge strides on our solutions and to achieve a core system that we can depend on and base our business on moving forwards as part of our strategy.”",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "createdAt": "2024-07-30T13:54:13.807Z",
+                "updatedAt": "2024-07-30T14:43:34.710Z",
+                "publishedAt": "2024-07-30T13:54:15.680Z"
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "author": "Heiko Hubertz",
+                "message": "“I've used ScaleTech over the years at both Whow Games for slot development, and now again for all of Oxolo AI products. Supplementing Scaletech as an extension of my in-house team allows me to scale and accelerate projects with quality code and on-time deliverables. They're honest, easy to work with, and reliable. I'm very satisfied with the outcomes of our continued development partnership.”",
+                "authorDetails": "Founder, CEO Oxolo & Serial Entrepreneur / Germany",
+                "authorMessage": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "text": "“I've used ScaleTech over the years at both Whow Games for slot development, and now again for all of Oxolo AI products. Supplementing Scaletech as an extension of my in-house team allows me to scale and accelerate projects with quality code and on-time deliverables. They're honest, easy to work with, and reliable. I'm very satisfied with the outcomes of our continued development partnership.”",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "createdAt": "2024-08-13T14:43:19.058Z",
+                "updatedAt": "2024-08-13T14:43:39.295Z",
+                "publishedAt": "2024-08-13T14:43:22.641Z"
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "author": "Brad Boim",
+                "message": "“The Scaletech team has done a fantastic job in helping us develop some of our key productivity tools. With limited development resources available in-house, we have been able to roll out new tools and functionalities quickly by working directly with the Scaletech development team on various projects. The quality of their work and diligent technical support have enabled us to expand these development projects at a much faster pace and scale them out further in the future.”",
+                "authorDetails": "Senior Director, Asset Management & Post Production - NFL Media",
+                "authorMessage": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "text": "“The Scaletech team has done a fantastic job in helping us develop some of our key productivity tools. With limited development resources available in-house, we have been able to roll out new tools and functionalities quickly by working directly with the Scaletech development team on various projects. The quality of their work and diligent technical support have enabled us to expand these development projects at a much faster pace and scale them out further in the future.”",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "createdAt": "2024-08-13T14:44:12.997Z",
+                "updatedAt": "2024-08-13T14:44:14.782Z",
+                "publishedAt": "2024-08-13T14:44:14.704Z"
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "author": "Ralf Baumann",
+                "message": "\"Back in the Days, we had the challenge to find a trustworthy outsourcing company that we could rely on. Previous attempts ended badly and we needed to find a company that had the skills, good communications, and was fair on price. We choose ScaleTech because we felt that their understood our business needs and had the skills that we needed in development. In the end, this was the best decision we could do, there was a great evolution of the relationship during the years of cooperation and incredible improvement of quality of delivered solutions.\"",
+                "authorDetails": "CEO Immozy / Germany",
+                "authorMessage": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "text": "\"Back in the Days, we had the challenge to find a trustworthy outsourcing company that we could rely on. Previous attempts ended badly and we needed to find a company that had the skills, good communications, and was fair on price. We choose ScaleTech because we felt that their understood our business needs and had the skills that we needed in development. In the end, this was the best decision we could do, there was a great evolution of the relationship during the years of cooperation and incredible improvement of quality of delivered solutions.\"",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "createdAt": "2024-08-13T14:45:32.846Z",
+                "updatedAt": "2024-08-13T14:45:34.767Z",
+                "publishedAt": "2024-08-13T14:45:34.697Z"
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "author": "Marco Matz",
+                "message": "\"ScaleTech Team has proved over the last years that they are a partner we can rely upon. We have created many great solutions, which support our business processes every day, helping us to both save on costs and capture new business opportunities. The Team is very flexible, presents a great commitment to results, and keeping quality as their primary focus.\"",
+                "authorDetails": "Director Operations Management Whow Games / Germany",
+                "authorMessage": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "text": "\"ScaleTech Team has proved over the last years that they are a partner we can rely upon. We have created many great solutions, which support our business processes every day, helping us to both save on costs and capture new business opportunities. The Team is very flexible, presents a great commitment to results, and keeping quality as their primary focus.\"",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "createdAt": "2024-08-13T14:46:03.489Z",
+                "updatedAt": "2024-08-13T14:46:05.293Z",
+                "publishedAt": "2024-08-13T14:46:05.219Z"
+            }
+        },
+        {
+            "id": 7,
+            "attributes": {
+                "author": "Suraj Gosai",
+                "message": "\"The migration work was a large programme and we simply didn't have enough developers in-house. We were impressed with the work that ScaleTech had done so far. ScaleTech was not just an obvious, but also a convenient choice for us.”",
+                "authorDetails": "CEO Blinkpool / United Kingdom",
+                "authorMessage": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "text": "\"The migration work was a large programme and we simply didn't have enough developers in-house. We were impressed with the work that ScaleTech had done so far. ScaleTech was not just an obvious, but also a convenient choice for us.”",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "createdAt": "2024-08-13T14:46:37.851Z",
+                "updatedAt": "2024-08-13T14:46:39.588Z",
+                "publishedAt": "2024-08-13T14:46:39.517Z"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 7
+        }
+    }
+}

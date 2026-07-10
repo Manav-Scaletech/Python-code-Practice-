@@ -1,0 +1,7 @@
+ID,Country,Name,Age,City,Salary,Bonus,Age + 5
+101,USA,Alice,24.0,New York,50000.0,5000,29.0
+102,UK,Bob,30.0,London,60000.0,5000,35.0
+103,France,Charlie,28.0,Paris,70000.0,5000,33.0
+104,UK,David,,London,80000.0,5000,
+105,France,Eva,35.0,Paris,50000.0,5000,40.0
+106,India,John,27.0,Delhi,55000.0,5000,32.0

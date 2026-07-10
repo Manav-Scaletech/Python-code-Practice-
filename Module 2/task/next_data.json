@@ -1,0 +1,18 @@
+{
+  "props": {
+    "pageProps": {}
+  },
+  "page": "/",
+  "query": {},
+  "buildId": "WKmSTYEVcVdnbHR0C3mzk",
+  "nextExport": true,
+  "autoExport": true,
+  "isFallback": false,
+  "dynamicIds": [
+    7749,
+    7504,
+    1146,
+    5959
+  ],
+  "scriptLoader": []
+}
