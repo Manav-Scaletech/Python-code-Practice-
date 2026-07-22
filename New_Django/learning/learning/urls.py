@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from learn import views
 
+
 urlpatterns = [
     path('', views.home_page, name='home'),
     path('admin/', admin.site.urls),
@@ -26,6 +27,8 @@ urlpatterns = [
 
 
     path('class/' , views.Myclassview.as_view(), name='class'),
-    path('manav/', views.Mynameclass.as_view(name = 'hulalal'),name = 'manav'),
+    path('manav/', views.Mynameclass.as_view(), name='manav'),
+    path('child/' , views.Another.as_view() , name= 'child'),
+    path('form/' , views.Fromclass.as_view() , name = 'form'),
 ]
 

@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views import View
+from django.template import Template
 
 # Create your views here.
 
@@ -23,3 +24,14 @@ class Mynameclass(View):
     def get(self,request):
         return HttpResponse(f"my name is {self.name}")
 
+class Another(Mynameclass):
+    def note(self, request):
+        return HttpResponse(self.name)
+
+class Fromclass(View):
+    def get(self,request):
+        return render(request, 'index.html')
+
+    def post(self, request):
+        name = request.POST.get('name', '').strip()
+        return render(request, 'index.html', {'name': name})
