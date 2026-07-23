@@ -11,4 +11,3 @@ else:
         "SELECT * FROM users WHERE username = %s",
         (username,)
     ) 
-    
