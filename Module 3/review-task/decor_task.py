@@ -1,16 +1,16 @@
-def note(func):
-    def hello(name , city , date):
-        print("before : ")
-        age = 2
-        func(name , city , date , age )
-        print("after of it : ")
-    return hello
+# def note(func):
+#     def hello(name , city , date):
+#         print("before : ")
+#         age = 2
+#         func(name , city , date , age )
+#         print("after of it : ")
+#     return hello
     
-@note
-def main(a,b,c,d):
-    print(a , b , c , d)
+# @note
+# def main(a,b,c,d):
+#     print(a , b , c , d)
     
-main("manav" , "ahemdabd " , 21  )     
+# def main("manav" , "ahemdabd " , 21  )     
 
 
 def my_decorator(func):
@@ -21,9 +21,11 @@ def my_decorator(func):
 
         print("Decorator got d =", d)
 
-        func(a, b, c)
+        f = func(a, b, c)
 
         print("After")
+        
+        return f  + d
 
     return wrapper
 
@@ -31,8 +33,8 @@ def my_decorator(func):
 @my_decorator
 def greet(a, b, c):
 
-    print(a, b, c)
+    return a + b + c 
 
 
-greet(1, 2, 3, 999)             #main func with 3 argu and deco. func.  with 4 argu. 
+print(greet(1, 2, 3, 999))             #main func with 3 argu and deco. func.  with 4 argu. 
     

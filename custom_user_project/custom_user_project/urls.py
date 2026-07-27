@@ -1,5 +1,5 @@
 """
-URL configuration for myprject project.
+URL configuration for custom_user_project project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.0/topics/http/urls/
@@ -16,13 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('', views.home, name='home'),
-    path('about/', views.about, name='about'),
-    path('contact/', views.contact, name='contact'),
-    path('newpath/', views.newpath, name = 'newpath'),
-    path('homeview/', views.HomeView.as_view(), name = 'homeview'),
 ]

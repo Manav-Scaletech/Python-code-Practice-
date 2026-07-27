@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Student Registration</title>
+
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    {% if message %}
+
+    <h3 style="color:green">
+
+        {{ message }}
+
+    </h3>
+
+    {% endif %}
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <button type="submit">
+
+            Register
+
+        </button>
+
+    </form>
+
+</body>
+
+</html>

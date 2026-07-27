@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSRF Practice</title>
+</head>
+
+<body>
+
+    <h2>Student Form</h2>
+
+    {% if message %}
+    <h3>{{ message }}</h3>
+    {% endif %}
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+        <input type="text" name="name" placeholder="Enter Name">
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+</body>
+
+</html>
