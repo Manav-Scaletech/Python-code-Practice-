@@ -8,6 +8,5 @@ class MyMiddleware(MiddlewareMixin):
 
 
     def process_response(self, request, response):
-        print(f"[{datetime.datetime.now()}]Response Status Code : {response.status_code}")
-        return response 
+        pass
         

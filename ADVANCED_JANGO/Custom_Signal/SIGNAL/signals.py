@@ -8,3 +8,6 @@ def show_notification(sender , **kwargs):
     print(sender)
     print(f'{kwargs}')
     print("notification")
+
+
+# custom_event_triggered = signal()

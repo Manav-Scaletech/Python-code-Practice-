@@ -1,0 +1,52 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Records</title>
+  <link rel="stylesheet" href="{% static 'app/style.css' %}">
+</head>
+
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">Django Student API</p>
+      <h1>Student Records</h1>
+      <p>Browse the students currently stored in the application.</p>
+    </header>
+
+    {% if students %}
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Roll no.</th>
+            <th>Name</th>
+            <th>City</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for student in students %}
+          <tr>
+            <td>{{ student.roll }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.city }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <form action="{% url 'student-detail' pk=student.id %}" method="POST">
+      {% csrf_token %}
+      {% else %}
+      <p class="empty">No students have been added yet.</p>
+      {% endif %}
+
+      <p class="api-link"><a href="">Open the student API</a></p>
+  </main>
+</body>
+
+</html>
