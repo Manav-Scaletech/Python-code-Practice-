@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DRF Form Submission</title>
 </head>
+
 <body>
-    <form action="/form/" method="POST">
+    <!-- CHANGED: action now uses the reverse URL name 'class' -->
+    <form action="{% url 'class' %}" method="POST">
         {% csrf_token %}
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="" required>
 
         <button type="submit">Submit</button>
     </form>
 
+    {% url 'class' %}
+
+    <!-- Displays the submitted name if it exists in context -->
     {% if name %}
-        <p>You submitted: {{ name }}</p>
+    <p>You submitted: {{ name }}</p>
     {% endif %}
-    
+
 </body>
+
 </html>
