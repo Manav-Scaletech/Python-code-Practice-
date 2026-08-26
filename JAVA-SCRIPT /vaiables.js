@@ -18,3 +18,6 @@ let c = 10;
 c = 1023; // ok. 
 
 // let c = 111; //not ok 
+
+
+console.log(NaN ** 0); // exception one , ans is = 1 
