@@ -1,0 +1,37 @@
+
+    --save-dev installs and adds the entry to the package.json file devDependencies
+    --no-save installs but does not add the entry to the package.json file dependencies
+    --save-optional installs and adds the entry to the package.json file optionalDependencies
+    --no-optional will prevent optional dependencies from being installed
+
+Shorthands of the flags can also be used:
+
+    -S: --save
+    -D: --save-dev
+    -O: --save-optional
+
+
+
+npm update <package-name>
+
+npm install <package-name>@<version>
+npm run <task-name>
+
+
+for ex : 
+
+{
+  "scripts": {
+    "watch": "webpack --watch --progress --colors --config webpack.conf.js",
+    "dev": "webpack --progress --colors --config webpack.conf.js",
+    "prod": "NODE_ENV=production webpack -p --config webpack.conf.js"
+  }
+}
+
+$ npm run watch
+$ npm run dev
+$ npm run prod
+
+
+for profiling 
+cmd :-> node --prof <file-name.js>
