@@ -1,31 +1,17 @@
-function slowFunction() {
-    let total = 0;
+const fs = require("node:fs");
 
-    for (let i = 0; i < 50000000; i++) {
-        total += i;
-    }
+function log(message) {
+    const time = new Date().toISOString();
 
-    return total;
+    console.log(`[${time}] ${message}`);
+
+    fs.appendFileSync(
+        "app.log",
+        `[${time}] ${message}\n`
+    );
 }
 
-function fastFunction() {
-    let total = 0;
-
-    for (let i = 0; i < 1000; i++) {
-        total += i;
-    }
-
-    return total;
-}
-
-function main() {
-    console.log("Application started");
-
-    fastFunction();
-
-    slowFunction();
-
-    console.log("Application finished");
-}
-
-main();
+log("Server started");
+log("User requested /home");
+log("Database connected");
+log("Server stopped");
