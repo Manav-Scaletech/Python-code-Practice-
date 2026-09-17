@@ -35,3 +35,15 @@ $ npm run prod
 
 for profiling 
 cmd :-> node --prof <file-name.js>
+
+
+
+console.log()       → normal output
+console.error()     → error output
+console.count()     → count executions
+console.countReset()→ reset counter
+console.trace()     → print call stack
+console.time()      → start timer
+console.timeEnd()   → stop timer
+process.stdout      → standard output stream
+process.stderr      → standard error stream
