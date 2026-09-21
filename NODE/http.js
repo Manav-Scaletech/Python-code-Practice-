@@ -1,11 +1,30 @@
 import http from 'node:http';
 
-const server = http.createServer((request, response) => {
-  // magic happens here!
+
+const server = http.createServer((req, res) => {
+  res.end("server created new one.");
 });
 
 
-const server = http.createServer();
-server.on('request', (request, response) => {
-  // the same kind of magic happens here!
+
+server.listen(3000);
+
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+
+  if (req.method === "GET") {
+    res.end("GET request");
+  }
+
+  else if (req.method === "POST") {
+    res.end("POST request");
+  }
+
+  else {
+    res.statusCode = 405;
+    res.end("Method Not Allowed");
+  }
 });
+
+server.listen(3000);
