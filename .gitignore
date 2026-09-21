@@ -22,3 +22,6 @@ staticfiles/
 
 # macOS
 .DS_Store
+
+# node modules
+node_modules/
